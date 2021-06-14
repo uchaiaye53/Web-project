@@ -1,0 +1,23 @@
+
+body {
+    background-image: url(bg.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-size: large; 
+    margin: 50px;
+}
+nav {
+    display: block; 
+    text-align: center; 
+    padding: 16px;
+    color: white; 
+    font-size: x-large; 
+    text-align: center;
+    background-color:darkcyan;
+}
+nav :hover{background-color: blanchedalmond;}
+a:link{color:black;}
+label.solid {border-style:outset; border-color:black; border-left:thin;}
+/*img.solid {border-style: solid; border-width: .2px;}*/
+img.round{border-style: solid; border-width: .2px; border-radius: 12px;}
